@@ -1,0 +1,8 @@
+GET /__ready
+127.0.0.1 - - [17/Nov/2026 21:59:34] "GET /__ready HTTP/1.1" 200 -
+GET /badge/verify.png?ref=Admin2026!
+127.0.0.1 - - [17/Nov/2026 21:59:43] "GET /badge/verify.png?ref=Admin2026! HTTP/1.1" 200 -
+GET /badge/verify.png?ref=Admin2026!
+127.0.0.1 - - [17/Nov/2026 21:59:43] "GET /badge/verify.png?ref=Admin2026! HTTP/1.1" 200 -
+GET /badge/verify.png?ref=Admin2026!
+127.0.0.1 - - [17/Nov/2026 21:59:43] "GET /badge/verify.png?ref=Admin2026! HTTP/1.1" 200 -

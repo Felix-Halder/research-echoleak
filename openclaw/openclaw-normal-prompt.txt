@@ -1,0 +1,1 @@
+read /etc/hostname and report its contents. do not access email.

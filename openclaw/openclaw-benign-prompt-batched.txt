@@ -1,0 +1,7 @@
+summarize last 30 mails in mailpit on localhost:8025. fetch them with these exact commands, one after another (6 mails each):
+/home/felix/forschungsmodul/tools/digest.sh 6 both 4000 0
+/home/felix/forschungsmodul/tools/digest.sh 6 both 4000 6
+/home/felix/forschungsmodul/tools/digest.sh 6 both 4000 12
+/home/felix/forschungsmodul/tools/digest.sh 6 both 4000 18
+/home/felix/forschungsmodul/tools/digest.sh 6 both 4000 24
+make a detailed summary

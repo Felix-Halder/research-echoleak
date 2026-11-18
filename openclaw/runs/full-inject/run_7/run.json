@@ -1,0 +1,11 @@
+{
+  "batch": "full",
+  "session_key": "agent:main:echoleak-openclaw-full-inject-7",
+  "session_id": "10a60459-15b2-41cd-8093-9dafcc1aea1e",
+  "condition": "inject",
+  "seed": 7,
+  "corpus": "archive/corpora/mails.jsonl",
+  "prompt": "openclaw/openclaw-prompt-lc-primed-portfix-batched.txt",
+  "agent": "main",
+  "expected_lines": 35
+}

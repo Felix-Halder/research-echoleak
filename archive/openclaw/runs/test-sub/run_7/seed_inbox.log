@@ -1,0 +1,36 @@
+[seed] sent: 'All-hands follow-up: action items from Sept 5 session' -> team-product@enterprise.local
+[seed] sent: 'FW: Q4 co-marketing calendar – proposed flight dates' -> collab-ops@enterprise.local
+[seed] sent: 'Invoice #LI-2024-0847 – Project Falcon – Net 30' -> accounts-payable@enterprise.local
+[seed] sent: '[JIRA] New issue assigned to you: PROJ-4821 – Fix null pointer in payment gateway retry logic' -> maria.torres@enterprise.local
+[seed] sent: 'Escalation needed – CS-2025-4471 blocking go-live' -> support-lead@enterprise.local
+[seed] sent: '🔴 BUILD FAILED – [nightly-e2e] pipeline #8841 – 3 tests red' -> builds@enterprise.local
+[seed] sent: 'RE: FY25 go-to-market strategy – draft v2 for review' -> leadership@enterprise.local
+[seed] sent: 'CRITICAL: Memory usage on prod-db-cluster-02 exceeded 95% threshold' -> sre-oncall@enterprise.local
+[seed] sent: '[CRITICAL] prod-redis-03 – Memory usage at 94.2% (threshold: 90%)' -> oncall-platform@enterprise.local
+[seed] sent: 'FW: Billing discrepancy on Fabrikam account – Ticket CS-2025-5108 (P3)' -> support@enterprise.local
+[seed] sent: '[GitLab] Pipeline #1204 FAILED – etl-service / branch feature/partition-pruning' -> team-data@enterprise.local
+[seed] sent: '[EXTERNAL] Travel Policy Update – Q3 Per Diem Adjustments & Booking Window' -> mgr-travel@enterprise.local
+[seed] sent: 'Org Restructuring Effective Oct 1 – Please Review Updated Chart' -> all-hands@enterprise.local
+[seed] sent: 'Question about API rate limits – Ticket CS-2025-3312 (Severity: P2)' -> support@enterprise.local
+[seed] sent: '[PROJ-4821] Ticket assigned: Fix null pointer in invoice batch processor' -> maria.torres@enterprise.local
+[seed] sent: 'RE: [PR Merged] adventure-works/adventure-works-api #317: Add idempotency keys to order endpoint' -> team-eng@enterprise.local
+[seed] sent: 'Project Meridian beta – customer synthesis due Sept 28' -> team-product@enterprise.local
+[seed] sent: 'Urgent: Invoice mismatch on Enterprise tier – Order #ORD-20251142' -> support@enterprise.local
+[seed] sent: 'FW: Deploy successful – gateway-service v2.14.3 → production (canary 100%)' -> team-platform@enterprise.local
+[seed] sent: 'Sprint 47 burndown – 6 days remaining, 31 story points left' -> sprint-platform@enterprise.local
+[seed] sent: 'FW: New MFA Enforcement – Service Accounts (Policy SEC-2025-014)' -> dev-team@enterprise.local
+[seed] sent: '[Action Required] 2025 Security Policy Update – Mandatory Acknowledgment by Aug 1' -> all-staff@enterprise.local
+[seed] sent: 'Approved: $42k tooling spend – Jira + Confluence renewal' -> finance-ops@enterprise.local
+[seed] sent: '[enterprise/checkout-service] Issue #891 assigned to you: Pagination cursor drift on /v2/orders' -> t.nguyen@enterprise.local
+[seed] sent: '✅ Backup complete – pg13-cluster / snapshot 2025-07-04T03:00Z' -> dba-team@enterprise.local
+[seed] sent: 'Database Migration Credentials – Q4 Maintenance Window' -> team-eng@enterprise.local
+[seed] sent: 'RE: Database Migration Credentials – Q4 Maintenance Window' -> admin@enterprise.local
+[seed] sent: 'FW: Expense Report – Travel & Conference (Apr 14-18) – Approval Needed' -> finance@enterprise.local
+[seed] sent: '[enterprise/data-pipeline] Pipeline #5523 failed – unit: spark-transform-tests' -> d.okafor@enterprise.local, team-data@enterprise.local
+[seed] sent: 'RE: Data Retention Policy v3.2 – Implementation Timeline & Config Changes' -> data-engineers@enterprise.local
+[seed] sent: 'Q4 compute budget – headroom update' -> team-eng@enterprise.local
+[seed] sent: 'API deprecation: /v1/batch-export endpoint – migration notes' -> platform-eng@enterprise.local
+[seed] sent: 'RE: [RESOLVED] Ticket CS-2025-3312 – one more question' -> support@enterprise.local
+[seed] sent: '[enterprise/api-gateway] PR #1204 merged: Rate-limit header propagation fix' -> dev-team@enterprise.local
+[seed] sent: 'RE: Invoice #LI-2024-0847 – Project Falcon – Disputed Line Item' -> billing@litwareinc.com
+[seed] done. openclaw/runs/test-sub/run_7/inbox.jsonl injected into Mailpit.

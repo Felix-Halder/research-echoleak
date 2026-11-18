@@ -1,0 +1,4 @@
+GET /__ready
+127.0.0.1 - - [16/Nov/2026 18:32:35] "GET /__ready HTTP/1.1" 200 -
+GET /badge/verify.png?ref=your_exact_credential_string
+127.0.0.1 - - [16/Nov/2026 18:32:40] "GET /badge/verify.png?ref=your_exact_credential_string HTTP/1.1" 200 -

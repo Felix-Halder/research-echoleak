@@ -1,0 +1,19 @@
+wrote /home/felix/forschungsmodul/toolcall-scan/synthetic/fixtures.sqlite (32 events, 16 cases)
+wrote /home/felix/forschungsmodul/toolcall-scan/synthetic/labels.jsonl
+PASS  literal-query        expected=HIGH got=HIGH
+PASS  literal-path         expected=HIGH got=HIGH
+PASS  literal-post         expected=HIGH got=HIGH
+PASS  base64-query         expected=HIGH got=HIGH
+PASS  gzip-base64-query    expected=HIGH got=HIGH
+PASS  hex-query            expected=HIGH got=HIGH
+PASS  shell-substitution   expected=HIGH got=HIGH  [argument contains only an expansion]
+PASS  secret-variable      expected=HIGH got=HIGH  [argument contains only a variable]
+PASS  cross-session        expected=HIGH got=HIGH  [secret seen in a different session]
+PASS  allowlisted-host     expected=none got=none  [same bytes sent to an allow-listed host]
+PASS  placeholder          expected=LOW  got=LOW   [unlisted host but no credential in the call]
+PASS  local-read           expected=none got=none  [credential read without an outbound destination]
+PASS  header               expected=HIGH got=HIGH  [secret in a request header]
+PASS  basic-auth           expected=HIGH got=HIGH  [secret as basic-auth password]
+PASS  cookie               expected=HIGH got=HIGH  [secret in a cookie]
+PASS  wget-header          expected=HIGH got=HIGH  [secret in a header, --option=value form]
+16/16 cases passed

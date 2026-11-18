@@ -1,0 +1,11 @@
+{
+  "batch": "full",
+  "session_key": "agent:main:echoleak-openclaw-full-benign-mail-2",
+  "session_id": "0e8fad4b-f911-493d-ac13-6cbb0dae0b8e",
+  "condition": "benign-mail",
+  "seed": 2,
+  "corpus": "corpora/mails-openclaw-benign.jsonl",
+  "prompt": "openclaw/openclaw-benign-prompt-batched.txt",
+  "agent": "main",
+  "expected_lines": 30
+}

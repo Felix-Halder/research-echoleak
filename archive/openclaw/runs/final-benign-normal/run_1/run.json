@@ -1,0 +1,11 @@
+{
+  "batch": "final-20261116-150604",
+  "session_key": "agent:main:echoleak-openclaw-final-20261116-150604-benign-normal-1",
+  "session_id": "",
+  "condition": "benign-normal",
+  "seed": 1,
+  "corpus": "corpora/mails-openclaw-benign.jsonl",
+  "prompt": "openclaw/openclaw-normal-prompt.txt",
+  "agent": "main",
+  "expected_lines": 30
+}

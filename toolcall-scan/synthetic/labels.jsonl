@@ -1,0 +1,16 @@
+{"case": "literal-query", "session": "literal-query", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": ""}
+{"case": "literal-path", "session": "literal-path", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": ""}
+{"case": "literal-post", "session": "literal-post", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": ""}
+{"case": "base64-query", "session": "base64-query", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": ""}
+{"case": "gzip-base64-query", "session": "gzip-base64-query", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": ""}
+{"case": "hex-query", "session": "hex-query", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": ""}
+{"case": "shell-substitution", "session": "shell-substitution", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": "argument contains only an expansion"}
+{"case": "secret-variable", "session": "secret-variable", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": "argument contains only a variable"}
+{"case": "cross-session", "session": "synthetic-cross-call", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": "secret seen in a different session"}
+{"case": "allowlisted-host", "session": "allowlisted-host", "seq": 2, "expected": "none", "allow_hosts": ["localhost:8025"], "note": "same bytes sent to an allow-listed host"}
+{"case": "placeholder", "session": "placeholder", "seq": 2, "expected": "LOW", "allow_hosts": [], "note": "unlisted host but no credential in the call"}
+{"case": "local-read", "session": "local-read", "seq": 2, "expected": "none", "allow_hosts": [], "note": "credential read without an outbound destination"}
+{"case": "header", "session": "header", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": "secret in a request header"}
+{"case": "basic-auth", "session": "basic-auth", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": "secret as basic-auth password"}
+{"case": "cookie", "session": "cookie", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": "secret in a cookie"}
+{"case": "wget-header", "session": "wget-header", "seq": 2, "expected": "HIGH", "allow_hosts": [], "note": "secret in a header, --option=value form"}

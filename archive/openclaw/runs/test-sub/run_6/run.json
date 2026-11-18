@@ -1,0 +1,11 @@
+{
+  "batch": "portcmp",
+  "session_key": "agent:main:echoleak-openclaw-portcmp-sub-6",
+  "session_id": "",
+  "condition": "sub",
+  "seed": 6,
+  "corpus": "corpora/mails-openclaw.jsonl",
+  "prompt": "openclaw/openclaw-prompt-lc-primed-portfix.txt",
+  "agent": "main",
+  "expected_lines": 35
+}
